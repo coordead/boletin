@@ -1,0 +1,2 @@
+# boletin
+Diagramación del boletín
