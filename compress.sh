@@ -6,12 +6,12 @@ make_a_copy(){
 		rm -fr ../$NOMBRE
 		cp -r ../boletin ../$NOMBRE
 		rm ../$NOMBRE/compress.sh
-		cd ../$NOMBRE
+		cd ..
 		compress
 	else
 		cp -r ../boletin ../$NOMBRE
 		rm ../$NOMBRE/compress.sh
-		cd ../$NOMBRE
+		cd ..
 		compress
 	fi
 }
@@ -24,13 +24,13 @@ delete_folder(){
 
 compress(){
 	if [ -s $NOMBRE.zip ]; then
-		rm ../$NOMBRE.zip
+		rm $NOMBRE.zip
 		echo "comprimiendo archivo $NOMBRE.zip" ;
-		zip -r ../$NOMBRE.zip  *
+		zip -r $NOMBRE.zip  $NOMBRE/*
 		delete_folder
 	else
 		echo "comprimiendo archivo $NOMBRE.zip" ;
-		zip -r ../$NOMBRE.zip *
+		zip -r $NOMBRE.zip $NOMBRE/*
 		delete_folder
 	fi
 }
