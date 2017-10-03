@@ -17,7 +17,6 @@ make_a_copy(){
 }
 
 delete_folder(){
-	cd ..
 	rm -fr $NOMBRE
 	exit
 }
