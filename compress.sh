@@ -1,5 +1,5 @@
 #!/bin/sh
-NOMBRE=$1
+NOMBRE=`cat boletinName`
 
 make_a_copy(){
 	if [ -d ../$NOMBRE ]; then
