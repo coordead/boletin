@@ -5,7 +5,7 @@ Plantilla para el Boletín de la [Coordinación de Educación a Distancia](http:
 # Créditos
 
 - Diseño gráfico: Jose Gelvis
-- Desarrollo e implementación: [Santiago Mendoza](http://www.santiagomendoza.org), [Andrés Morelos](https://www.linkedin.com/in/andresmorelos)
+- Desarrollo e implementación: [Santiago Mendoza](http://www.santiagomendoza.org), [Andrés Morelos](https://www.linkedin.com/in/andresmorelos), Richard Velásquez
 
 # ¿Cómo usar los scripts?
 
