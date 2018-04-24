@@ -5,7 +5,7 @@ Plantilla para el Boletín de la [Coordinación de Educación a Distancia](http:
 # Créditos
 
 - Diseño gráfico: Jose Gelvis
-- Desarrollo e implementación: [Santiago Mendoza](http://www.santiagomendoza.org), [Andrés Morelos](https://www.linkedin.com/in/andresmorelos), Richard Velásquez
+- Desarrollo e implementación: [Santiago Mendoza](http://www.santiagomendoza.org), [Andrés Morelos](https://www.linkedin.com/in/andresmorelos), Richard Velásquez , Miguel Martelo
 
 # ¿Cómo usar los scripts?
 
@@ -20,9 +20,3 @@ ejemplo:
   ./make.sh Boletin39
 ```
 Se crea la rama **Boletin39** y se genera el archivo **boletinName** con el texto Boletin39.
-
-## Crear el .zip para subir al servidor
-```shell
-  ./compress.sh
-```
-esto genera el archivo **Boletin39.zip**
